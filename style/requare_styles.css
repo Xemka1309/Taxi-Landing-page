@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+.require_block {
+    width: 94%;
+    padding-left: 3%;
+    height: 700px;
+    position: relative;
+
+}
+.require_item1{
+    margin-left: 0px;   
+    width: 32%;
+    position: absolute;
+    text-align: left;
+}
+.require_item2{
+    width: 32%;
+    margin-left: 64%;
+    position: absolute;
+    text-align: right;
+}
+.require_img img {
+    position: absolute;
+    width: 32%;
+    margin-left: 35%;
+}
+.require_block h2{
+    font-family:'Ubuntu Condensed', sans-serif;
+    background: rgb(212, 8, 8);
+    color:white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
+    text-align: center;
+    font-size: 60px;
+}
+.require_item1 li{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:2%;
+    padding-right: 2%;
+    font-weight: 700;
+    font-family:'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    list-style-type: none;
+    background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+    border: 1px solid rgb(250,172,17);
+}
+.require_block li::after, li::before{
+    
+  
+}
+.require_block li{
+    border-radius: 15px;
+    background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    color:black;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style-type: none;
+    padding-right: 4%;
+    font-weight: bold;
+    
+    font-family:'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+    border: 1px solid rgb(250,172,17);
+}

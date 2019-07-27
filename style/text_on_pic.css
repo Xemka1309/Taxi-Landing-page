@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.image {
+    height: 550px;
+	position	: relative;
+    width		: 100%; /* for IE 6 */
+    opacity: 0.75;
+}
+
+.image span{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: aliceblue;
+    position	: absolute;
+    font-size:30px;
+	top		    : 350px;
+    left		: 50px;
+    right:        0px;
+	width		: 95%;
+
+}
+.welcome span{
+
+    
+    padding-right: 100px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: aliceblue;
+    position	: absolute;
+    font-size:25px;
+	top		    : 210px;
+    left		: 50px;
+    right:        0px;
+	width		: 60%;
+}
+
+.image h2 {
+    font-size:60px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:white;
+	position	: absolute;
+	top		    : 0px;
+    left		: 50px;
+    right:        0px;
+	width		: 95%;
+}
+.automobile{
+    padding: 200px 50px 0px 750px;
+}
+@media (max-width: 550px) {
+    .image h2{
+        font-size: 25px;
+    }
+    .image span{
+        font-size: 15px;
+        top:200px;
+    }
+    .automobile{
+        padding: 150px 0px 0px 250px;
+        width: 150px;
+        height: 100px;
+    }
+    .welcome span{
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: aliceblue;
+        position	: absolute;
+        font-size:15px;
+        top		    : 100px;
+        left		: 50px;
+        right:        0px;
+        width		: 95%;
+    }
+}

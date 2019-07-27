@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" href="res/logo.png" type="image/png">
+        <link href="style/new_index_styles.css" rel="stylesheet">
+        <link href="style/menu_styles.css" rel="stylesheet">
+        <link href="style/text_on_pic.css" rel="stylesheet">
+        <link href="style/request_button.css" rel="stylesheet">
+        <link href="style/advantages_styles.css" rel="stylesheet">
+        <link href="style/shedule_styles.css" rel="stylesheet">
+        <link href="style/requare_styles.css" rel="stylesheet">
+        <link href="style/form_styles.css" rel="stylesheet">
+        <link href="style/footer_styles.css" rel="stylesheet">
+        <title>Районы-Кварталы</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <a name="menu" href=""></a>
+                <img class="logo" width="100px" height="100px" src="res/logo.png">
+                <ul class="menu-main">
+                    <a href="#menu"><h1 class="main_h1">Районы-кварталы</h1></a>
+                    <li><a href="#menu">Главная</a></li>
+                    <li><a href="#advantages">Преимущества</a></li>
+                    <li><a href="#shedule">График работы</a></li>
+                    <li><a href="#require">Требования к кандидатам</a></li>
+                    <li><a href="#call">Контакты</a></li>
+                    <li><a class="special_a" href="#call">Откликнуться</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="image">
+            <img width="100%"  src="res/taxipic2_2.jpg" alt="" />
+            <img class="automobile" width="40%" src="res/taxi_mob.png">
+            <h2>Гарантированный доход и официальное трудоустройство в такси Яндекс</h2>
+            <span> <a href="#menu" class="request_button">Оставить заявку</a></span>
+            <div class="welcome">
+                <span class="welcome">
+                    Автопарк <b style="color:red;">“Районы-Кварталы” </b>приглашает водителей
+                    к долгосрочному взаимовыгодному сотрудничеству в Яндекс Такси.
+                    Работа с нами будет по-настоящему комфортной и приятной.
+                </span>
+            </div>
+        </div>
+         
+        <div class="advantages_block">
+            <h2>ПОЧЕМУ ВОДИТЕЛИ ВЫБИРАЮТ НАС?</h2>
+            <a name="advantages"></a>
+            <ul class="rectangle">
+                <li class="advantages">
+                    <a>Наша ставка 40%, одна из самых высоких по РБ. Расчет каждую неделю. Гарантия прозрачности вашего дохода.</a>
+                </li>
+                <li class="advantages">
+                    <a>В автопарке только новые автомобили 2018-2019  года, оснащенные кондиционерами, стеклоподъемниками и аудиосистемой.</a>
+                </li>
+                <li class="advantages">
+                    <a>Заправка, мойка, ремонт входит в зону ответственности автопарка.
+                    Водитель не тратит никаких личных средств на обслуживание автомобиля.</a>
+                </li>
+            </ol>
+        </div>
+        <div class="shedule_block">
+           <a name="shedule"></a>
+            <span class="text_block">   <br><a style="color: red;" class="shedule_bold">дневная смена / ночная смена / работа в выходные дни.</a><br>
+                    * Мы применяем гибкий подход к каждому водителю, и стараемся помочь выбрать <a class="shedule_bold">оптимальную загрузку с учетом
+                    ваших возможностей.</a><br> * Менеджер по персоналу поможет подобрать <a class="shedule_bold">максимально комфортные условия для работы именно для Вас.</a>
+            </span>
+             <h2 height="100px">ГРАФИК РАБОТЫ:</h2>
+             <img  width="100%"  src="res/girl_car2.png" alt="taxipic" />
+           
+        </div>
+        
+        <div class="require_block">
+            <h2>ТРЕБОВАНИЯ К КАНДИДАТУ</h2>
+            <a name="require"></a>
+            <div>
+                <ul class="require_item1" >
+                    <li>Категория В</li>
+                    <li>Медосмотр с правом найма</li>
+                    <li>Коммуникабельность</li>
+                </ul>
+            </div>
+
+            <div class="require_img">
+                <img src="res/taxometrs2.png" >
+            </div>
+            
+            <div>
+                <ul class="require_item2">
+                    <li>Смартфон на платформе Android</li>
+                    <li>Стрессоустойчивость</li>
+                    <li>Желание зарабатывать</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="call_form">
+            <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
+            <a name="call"></a>
+            <div class="form_text">
+                <span class="title">МЫ ЖДЕМ ВАШЕГО ЗВОНКА</span> <br> <span class="no_title">
+                Адрес улица М. Лынькова, д.121,<br> пом. 13, офис 23Н<br>
+                Беларусь<br>
+                <br>
+                +375293664505</span>
+            </div>
+            <div class="form">
+                <a name="leave_request"></a>
+                <form action="php/send_mail.php" method="get">
+                <input class='text' type='text' name='namesurname' placeholder='ФИО' required>
+                <br>
+                <input class='text' id='age_box' name="age"  type='text' placeholder='Возраст' required>
+                <br>
+                <input class='text' id='drive_age_box' name="driveage"  type='text' placeholder='Стаж вождения' required>
+                <br>
+                <input class='text' id='phone_box' name="phone"  type='text' placeholder='Телефон для связи' required>
+                <br>
+                <input class='button' type='submit' name="ok" value='Отправить'>
+                </form>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="copyright">
+            <span >Copyright 2019 Таксопарк "Районы-Кварталы"<br>Dev: https://github.com/Xemka1309</span>
+            </div>
+        </footer>
+        
+    </body>
+</html>

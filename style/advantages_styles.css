@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.advantages_block h2 {
+    text-align: center;
+    
+        font-size: 60px;
+        font-family:'Ubuntu Condensed', sans-serif;
+        background: rgb(212, 8, 8);
+        color:white;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
+
+}
+ .advantages_block{
+     padding-top: 50px;
+     width: 94%;
+     padding-left: 3%;
+    
+ }
+
+/* OL STYLES*/
+.rectangle {
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    }
+    .rectangle a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+   
+    font-size: 35px;
+    font-weight: bold;
+    
+    border: 1px solid rgb(250,172,17);
+    border-radius: 7px;
+    background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+    transition: box-shadow .2s, border-color .2s;
+
+    text-decoration: none;
+    transition: all .3s ease-out;
+    }
+    .rectangle a:hover {background: #f1bd2d;}       
+    .rectangle a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: rgb(255,204,51);
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+    }
+    .rectangle a:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+    }
+    

@@ -1,0 +1,22 @@
+h1{
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+h1:hover{
+
+}
+img{
+    position: absolute;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: 0px;
+    align-self: left;
+}
+.header{
+    padding: 0%;
+    margin: 0px;
+    padding-top:20px;
+}
