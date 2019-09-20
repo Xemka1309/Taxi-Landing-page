@@ -32,11 +32,13 @@
     text-align: center;
     width: 94%;
     margin-left: 3%;
-    font-family:'Ubuntu Condensed', sans-serif;
-    background: rgb(212, 8, 8);
-    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    
+    color:#FFC03A ;
+    
     letter-spacing: 2px;
-    text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
+    
     font-size: 60px;
 }
 .call_form div{
@@ -46,7 +48,8 @@
 .text{
     margin-left:10%;
     margin-top:20px;
-    color:rgb(212, 8, 8);
+    color:#FFC03A;
+    font-weight: 400;
     padding:10px 10px 10px 50px;
     font-family:'Ubuntu Condensed', sans-serif;
     font-size: 35px;
@@ -60,4 +63,7 @@
     font-family:'Ubuntu Condensed', sans-serif;
     font-weight: bold;
     font-size:35px;
+}
+.button:hover{
+    background-color: rgb(220, 183, 20);
 }

@@ -1,48 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap&subset=cyrillic,cyrillic-ext');
 .image {
-    height: 550px;
+    background-color: #000000;
+    height: 1140px;
 	position	: relative;
     width		: 100%; /* for IE 6 */
-    opacity: 0.75;
+    
 }
-
-.image span{
+/* #FFC03A - цвет заголовков */
+.image img{
+    overflow: hidden;
+    opacity: 0.7;
+    padding-left: 1%;
+}
+.image .button_request {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: aliceblue;
     position	: absolute;
-    font-size:30px;
-	top		    : 350px;
+    font-size:45px;
+	top		    : 700px;
     left		: 50px;
     right:        0px;
-	width		: 95%;
-
+    width		: 95%;  
+    text-align: center;
+    
 }
 .welcome span{
-
-    
-    padding-right: 100px;
+    font-weight: 400;
+    text-align: center; 
     font-family: 'Ubuntu Condensed', sans-serif;
     color: aliceblue;
     position	: absolute;
-    font-size:25px;
-	top		    : 210px;
-    left		: 50px;
-    right:        0px;
-	width		: 60%;
+    font-size:35px;
+    top:500px;
+    width:80%;
+    text-align: center;
+    padding-left:10%;
+    
 }
 
 .image h2 {
-    font-size:60px;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color:white;
-	position	: absolute;
-	top		    : 0px;
+    text-align: center;
+    font-size   : 72px;
+    font-family : 'Oswald',sans-serif;
+    color       :rgb(255, 255, 255);   
+    position	: absolute;
+    font-weight: 400;
+	top		    : 50px;
     left		: 50px;
-    right:        0px;
-	width		: 95%;
+    right:        30px;
+    -webkit-text-stroke-width: 0.2  px;
+    -webkit-text-stroke-color: #000000;
+	
 }
 .automobile{
-    padding: 200px 50px 0px 750px;
+    padding: 400px 50px 0px 750px;
 }
 @media (max-width: 550px) {
     .image h2{

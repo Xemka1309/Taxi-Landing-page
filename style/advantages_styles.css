@@ -1,23 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
-.advantages_block h2 {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap&subset=cyrillic,cyrillic-ext');
+
+.container_advantages{
     
-        font-size: 60px;
-        font-family:'Ubuntu Condensed', sans-serif;
-        background: rgb(212, 8, 8);
-        color:white;
-        letter-spacing: 2px;
-        text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-areas: "item1 item2 item3"
+                         "item1 item2 item3"
+                         "item1 item2 item3";
+    background-color: rgba(173, 173, 173, 0.151);
+    text-align: center;
+    vertical-align: center;
+
+}
+
+.advantages_block .item_text{
+   font-size:25px;
+   font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.container_advantages .item1,.item2,.item3{
+    text-align: center;
+    vertical-align: center;
+    padding-top:20px;
+    padding-left:20px;
+    background-color: rgba(173, 173, 173, 0.185);
+    width: 65%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.advantages_block h3{
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    color:#FFC03A ;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.advantages_block h2 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    
+    color:#FFC03A ;
+    
+   
 
 }
  .advantages_block{
-     padding-top: 50px;
-     width: 94%;
-     padding-left: 3%;
+     
+     width: 100%;
+     height:600px;
     
  }
 
-/* OL STYLES*/
+/* OL STYLES*/  
 .rectangle {
     counter-reset: li; 
     list-style: none; 

@@ -25,14 +25,11 @@
     font-family: 'Ubuntu Condensed', sans-serif;
     letter-spacing: 2px;
     ______________________________  */
-    font-family:'Ubuntu Condensed', sans-serif;
-    background-color: rgb(212, 8, 8);;
-    height: 75px;
-    color:white;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
-    text-align: center;
     font-size: 60px;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    
+    color:#FFC03A ;
 
 }
 .shedule_block span{

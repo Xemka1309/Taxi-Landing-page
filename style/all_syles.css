@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
-
+@import "Oswald_Font.css";
 h2{
-    font-family:'Ubuntu Condensed', sans-serif;
+    font-family:"Oswald", sans-serif;
     background: rgba(231, 18, 10, 0.719);
     color:white;
     letter-spacing: 2px;
     text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
     text-align: center;
-    font-size: 60px;
-}
+    font-size: 72px;
+}   
